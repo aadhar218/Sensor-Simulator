@@ -1,0 +1,834 @@
+{
+  "posts": [
+    {
+      "temperature": 26,
+      "temperature_max": 0,
+      "Temperatureincrease": -37.41935729980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.8,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.70841979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.7,
+      "temperature_max": 0,
+      "Temperatureincrease": -39.35295104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26,
+      "temperature_max": 0,
+      "Temperatureincrease": -37.41935729980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.1,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.77482604980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.5,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.19670104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.7,
+      "temperature_max": 0,
+      "Temperatureincrease": -39.35295104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.7,
+      "temperature_max": 0,
+      "Temperatureincrease": -39.35295104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.4,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.84123229980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.8,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.70841979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.6,
+      "temperature_max": 0,
+      "Temperatureincrease": -33.55216979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.7,
+      "temperature_max": 0,
+      "Temperatureincrease": -39.35295104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.5,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.19670104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.5,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.19670104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26,
+      "temperature_max": 0,
+      "Temperatureincrease": -37.41935729980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.6,
+      "temperature_max": 0,
+      "Temperatureincrease": -33.55216979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.4,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.84123229980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.1,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.77482604980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26,
+      "temperature_max": 0,
+      "Temperatureincrease": -37.41935729980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.3,
+      "temperature_max": 0,
+      "Temperatureincrease": -35.48576354980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.8,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.70841979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.4,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.84123229980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.7,
+      "temperature_max": 0,
+      "Temperatureincrease": -39.35295104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.1,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.77482604980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.6,
+      "temperature_max": 0,
+      "Temperatureincrease": -33.55216979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.7,
+      "temperature_max": 0,
+      "Temperatureincrease": -39.35295104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.6,
+      "temperature_max": 0,
+      "Temperatureincrease": -33.55216979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.2,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.13029479980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26,
+      "temperature_max": 0,
+      "Temperatureincrease": -37.41935729980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.2,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.13029479980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.2,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.13029479980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.3,
+      "temperature_max": 0,
+      "Temperatureincrease": -35.48576354980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.6,
+      "temperature_max": 0,
+      "Temperatureincrease": -33.55216979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.8,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.70841979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.1,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.77482604980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.4,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.84123229980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.4,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.84123229980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26,
+      "temperature_max": 0,
+      "Temperatureincrease": -37.41935729980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.1,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.77482604980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.1,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.77482604980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.2,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.13029479980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.6,
+      "temperature_max": 0,
+      "Temperatureincrease": -33.55216979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.7,
+      "temperature_max": 0,
+      "Temperatureincrease": -39.35295104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.5,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.19670104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.8,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.70841979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.7,
+      "temperature_max": 0,
+      "Temperatureincrease": -39.35295104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.5,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.19670104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.3,
+      "temperature_max": 0,
+      "Temperatureincrease": -35.48576354980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26,
+      "temperature_max": 0,
+      "Temperatureincrease": -37.41935729980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.7,
+      "temperature_max": 0,
+      "Temperatureincrease": -39.35295104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.8,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.70841979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.2,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.13029479980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.2,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.13029479980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.4,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.84123229980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.5,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.19670104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.1,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.77482604980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.6,
+      "temperature_max": 0,
+      "Temperatureincrease": -33.55216979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.7,
+      "temperature_max": 0,
+      "Temperatureincrease": -39.35295104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.7,
+      "temperature_max": 0,
+      "Temperatureincrease": -39.35295104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.5,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.19670104980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.1,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.77482604980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.3,
+      "temperature_max": 0,
+      "Temperatureincrease": -35.48576354980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.3,
+      "temperature_max": 0,
+      "Temperatureincrease": -35.48576354980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 25.9,
+      "temperature_max": 0,
+      "Temperatureincrease": -38.06388854980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.6,
+      "temperature_max": 0,
+      "Temperatureincrease": -33.55216979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.6,
+      "temperature_max": 0,
+      "Temperatureincrease": -33.55216979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.4,
+      "temperature_max": 0,
+      "Temperatureincrease": -34.84123229980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26,
+      "temperature_max": 0,
+      "Temperatureincrease": -37.41935729980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.1,
+      "temperature_max": 0,
+      "Temperatureincrease": -36.77482604980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.3,
+      "temperature_max": 0,
+      "Temperatureincrease": -35.48576354980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.3,
+      "temperature_max": 0,
+      "Temperatureincrease": -35.48576354980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    },
+    {
+      "temperature": 26.6,
+      "temperature_max": 0,
+      "Temperatureincrease": -33.55216979980469,
+      "humidity": 0,
+      "Humidity_max": 0,
+      "RelativeHumidity": 0,
+      "DeviceId": 2000,
+      "ManufactureId": 21577
+    }
+  ]
+}

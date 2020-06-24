@@ -1,87 +1,82 @@
 
 const express = require('express');
 const app = express();
-const Datastore = require('nedb');
 const { response } = require('express');
-app.listen(3000,() => console.log("listening"));
+app.listen(4000,() => console.log("listening"));
 app.use(express.static('public'));
 app.use(express.json({limit:'1mb'}));
-const database = new Datastore('database.db');
-database.loadDatabase();
-database.insert({name: 'Simulator',status: 'climate'});
-app.get('/api',(request,response)=>{
-   
-
-database.find({},(err,data)=>{
-    if(err){
-        response.end();
-        return;
+app.get("/api", (request, response) => {
+  fs.readFile('./newCustomer.json', 'utf8', (err, jsonString) => {
+    if (err) {
+        console.log("Error reading file from disk:", err)
+        return
     }
-    response.json({data});
-});
-})
-app.post('/api',(request,response)=>{
-    const data = request.body;
-    response.json(data);
-})
-var hum_low=0;
-var temp_low=0;
-var temp_high=0;
-var hum_high=0;
-var t_m=0;
-var t_thr_l=0;
-var t_thr_h=100;
-var t=0;
+    try {
+        const customer = JSON.parse(jsonString) 
+        response.json(customer);
+      } catch(err) {
+        console.log('Error parsing JSON string:', err)
+      }
 
-function devgetTemplow(){
-    temp_low = Math.floor((Math.random() * 100) + 1);
     
-}
-function devgetHumiditylow(){
-     hum_low = Math.floor((Math.random() * 100) + 1);
-         
-     
-}
-function devgetHumidityhigh(){
-     hum_high = Math.floor((Math.random() * 100) + 1);
-     
- }
-function devgetTempHigh(){
-     temp_high = Math.floor((Math.random() * 100) + 1);
-     
-}
-function devgetTempmax(){
-     t_m = 100;
-     
-}
-function devgetTemp_thr_l(){
-     t_thr_l = Math.floor((Math.random() * 100) + 1);
-     
-}
-function devsetTemp_thr_h(){
-     t_thr_h = Math.floor((Math.random() * 100) + 1);
-     
-}
-function devsethumidity_threshold(){
-     h_thr_l = Math.floor((Math.random() * 100) + 1);
-     
-}
-function gettemperature(){
-    t = (((temp_high*256+temp_low)/65536)*165)-40
-}
 
-  var  myvar = setInterval(load_database,8000);
+})
+  });
+
+let model = require("./climate_sensor.js");
+const mqtt = require('mqtt');
+const { json } = require('express');
+const client = mqtt.connect('mqtt:34.210.160.212');
   
-  function load_database()
-  {
-    devgetTemplow();
-    devgetHumiditylow();
-    devgetTempHigh();
-    devgetTemp_thr_l();
-    devgetTempmax();
-    devsetTemp_thr_h();
-    
-    devsethumidity_threshold();
-    devgetHumidityhigh();
-    database.insert({Temperaturelow: temp_low.toString(),temperature_high:temp_high.toString(),Humiditylow:hum_low.toString(),Humidityhigh:hum_high.toString(),TEMPERATURE: t.toString()});
+app.post('/api1', (request,response)=>{
+  console.log(request.body);
+})
+setInterval(serverdata,2000);
+function serverdata()
+{
+  temp = model.devgettemp();
+  tempmax=model.devgettempmax();
+  hum = model.devgethumi();
+  hum_m = model.devgethumimax();
+  devid = model.devgetdeviid();
+  manuif = model.devgetmanufid();
+  tempinc = model.devgettempinc();
+  humidityrh = model.devgethumiinrh();
+  tempthH = model.devgettempthh();
+  tempthL = model.devgettempthl();
+
+  var tempdata = { temperature: temp,temperature_max:tempmax,Temperatureincrease:tempinc, humidity: hum, Humidity_max: hum, RelativeHumidity: humidityrh, DeviceId: devid, ManufactureId:manuif};
+  client.publish('shalaka/app/data',JSON.stringify(tempdata));
+}
+const fs = require('fs')
+
+
+client.on('connect', () => {
+  client.subscribe('shalaka/app/data')
+})
+client.on('message', (topic, message) => {
+  switch (topic) {
+    case 'shalaka/app/data':
+      return tempdata(message)
+
   }
+  console.log('No handler for topic %s', topic)
+})
+
+function tempdata (message) {
+  //console.log('temperature data %s', message)
+  
+  const jsonString = (message)
+  fs.writeFile('./newCustomer.json', jsonString, err => {
+    if (err) {
+        console.log('Error writing file', err)
+    } else {
+       // console.log('Successfully wrote file')
+    }
+  })
+ 
+}
+
+
+
+
