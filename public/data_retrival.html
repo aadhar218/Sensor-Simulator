@@ -17,40 +17,58 @@
   
 </head>
 
-
-        <script>
-
+<script>
     
+</script>
+
+    <script>
+        //the arrays for temp and humidity values is also made for plotting the graphs in future
+    var tab=0;
     const temp =[];
     const humidity =[];
-
+    var t=0;
+    //t is the value for current tab for more sensors the if blocks can be changed as per
     async function getData() 
     {  
     
         const response = await fetch("/api");
         const data = await response.json();
         temp.push(data.temperature);
+        console.log(t);
         humidity.push(data.humidity);
-        document.getElementById("mytext1").innerHTML = data.temperature;
-        document.getElementById("mytext2").innerHTML = data.humidity;
-        document.getElementById("mytext3").innerHTML = data.Temperatureincrease;
-        document.getElementById("mytext4").innerHTML = data.RelativeHumidity;
-        document.getElementById("mytext5").innerHTML = data.DeviceId;
-        document.getElementById("mytext6").innerHTML = data.ManufactureId;
-        document.getElementById("mytext7").innerHTML = data.tempthH;
 
+        if(t===1){
+            document.getElementById('mytext1').innerHTML= data.temperature;
+            document.getElementById('mytext2').innerHTML= data.humidity;
+            document.getElementById('mytext5').innerHTML= data.DeviceId;
+        }
+        if(t===2){
+
+            document.getElementById('mytext21').innerHTML= data.temperature;
+            document.getElementById('mytext22').innerHTML= data.humidity;
+            document.getElementById('mytext25').innerHTML= data.DeviceId;
+        } 
     
     }
-
-
-    getData();
-    setInterval(getData,1000);
-    console.log(temp);
+    setInterval(getData,1);
 
 </script>
 <body>
-   
-   
+
+    <script>
+        var count =0;
+    window.onload = function(){
+        document.getElementById('submit1').style.display = 'none';
+        document.getElementById('submit2').style.display = 'none';
+        document.getElementById("sensor1").style.display = "none";
+        document.getElementById("sensor2").style.display = "none";
+        document.getElementById("sensor3").style.display = "none";
+        document.getElementById("sensor4").style.display = "none";
+
+    }
+</script>
+
+</script>
     <section id="banner">
         <h2>CLIMATE Sensor simulator</h2>
         <p>A Sensor simulator takes the values from the device driver registers.</p>
@@ -61,40 +79,253 @@
     <section id="three" class="wrapper style1">
         <div class="container">
             <header class="major special">
-                <p>Sensor used in ADC2080</p>
+                <p>Sensor used is ADC2080</p>
                 <hr>
                 <h2> Temperature Sensor Values</h2>
    
+            </div>
+            <div class = "sub_button">
+            <input type="button" onclick="addsensor()" id="s1" value="Add Sensor" ><hr>
+            </div>
+        <script>
+                    
+            function addsensor(){
+                    count ++;
+                    console.log(count);
+                    if(count ===1){
+                    var x = document.getElementById("sensor1");
+                    if (x.style.display === "none") {
+                        x.style.display = "block";
+            } 
+        }
+                    if(count ===2){
+                        var x = document.getElementById("sensor2");
+                        if (x.style.display === "none") {
+                            x.style.display = "block";
+            } 
+                    }
+                    if(count ===3){
+                        var x = document.getElementById("sensor3");
+                        if (x.style.display === "none") {
+                            x.style.display = "block";
+            } 
+                    }
+                    if(count ===4){
+                        var x = document.getElementById("sensor4");
+                        if (x.style.display === "none") {
+                            x.style.display = "block";
+            } 
+                    }
+        
+        }
+    
+        </script>
+   
+<div id = "sensor1">  
+<button class="tablink" onclick="openPage('Home', this, 'red')">Sensor1</button>
+</div>
 
-   <h1> The temperature data : <span id ="mytext1"></span></h1>
-   <h1> The Humidity data : <span id ="mytext2"></span></h1>
-   <h1> Temperature increase : <span id ="mytext3"></span></h1>
-   <h1> Relative Humidity : <span id ="mytext4"></span></h1>
-   <h1> DeviceId : <span id ="mytext5"></span></h1>
-   <h1> Manufacture Id : <span id ="mytext6"></span></h1>
-   <h1> Temperature threshold high : <span id ="mytext7"></span></h1>
-   <form id = "myform" >
-    Temperature Threshold: <input type="text" id="fname" size="20" name="fname"><br>
-    Humidity threshold: <input type="text" id="age" size="20" name="age"><br>
-    Temperature threshold low: <input type="text" id="email" size="20" name="mail"><br><br>
-    <button type="submit" onclick = "getdata()"> 
+<div id = "sensor2">
+<button class="tablink" onclick="openPage('News', this, 'green')">Sensor2</button>
+
+</div>
+<div id = "sensor3">
+<button class="tablink" onclick="openPage('Contact', this, 'blue')">Sensor3</button>
+
+</div>
+<div id = "sensor4">
+<button class="tablink" onclick="openPage('About', this, 'orange')">Sensor4</button>
+</div>
+
+
+<div id="Home" class="tabcontent">
+
+  <h3>Sensor1 Data</h3>
+
+  <form id = "form">
+
+    Device Id: <input type="text" id="dev" size="10" name="dev" ><br>
+    Humidity threshold: <input type="text" id="humt" size="10" name="humt" ><br>
+    Temperature threshold: <input type="text" id="tmpt" size="10" name="tmpt" ><br>
+
+
+
+    <input type="button" onclick="getdata1()" id="submit" value="Submit" >
   </form>
+
+  <div id = "submit2">
+    <h5> The temperature data : <span id ="mytext1"></span></h5><hr>
+    <h5> The Humidity data : <span id ="mytext2"></span></h5><hr>
+    <h5> DeviceId : <span id ="mytext5"></span></h5><hr>
+   
+</div> 
+
   <script>
-async function getdata(){
-    const tempthrh = document.getElementById("email").value;
-    const humthr = document.getElementById("age").value;
-    const tempthrl = document.getElementById("fname").value;
-    const data1 ={tempthrh,humthr,tempthrl};
+    async function getdata1(){
+
+        var x = document.getElementById("submit2");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } 
+        else {
+            x.style.display = "none";
+            }
+        var y = document.getElementById("form");
+        if (y.style.display === "none") {
+            y.style.display = "block";
+        } 
+        else {
+            y.style.display = "none";
+            }
+        var tempth = document.getElementById("tmpt").value;
+        var humth = document.getElementById("humt").value;
+        var devid = document.getElementById("dev").value;
+        const data1 ={devid,tempth,humth,count};
+        const options = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+        },
+            body: JSON.stringify(data1)
+        };
+        fetch('/api1',options);
+        }
+    </script>
+
+  
+</div>
+  
+
+<div id="News" class="tabcontent1">
+    
+  <h3>Sensor2 Data</h3>
+
+  <form id = "form1">
+
+    Device Id: <input type="text" id="dev1" size="10" name="dev" autocomplete="off" ><br>
+    Humidity threshold: <input type="text" id="humt1" size="10" name="humt" autocomplete="off"><br>
+    Temperature threshold: <input type="text" id="tmpt1" size="10" name="tmpt" autocomplete="off" ><br>
+
+    <input type="button" onclick="getdata2()" id="submit" value="Submit" >
+  </form>
+
+<div id = "submit1">
+    <h5> The temperature data : <span id ="mytext21"></span></h5><hr>
+    <h5> The Humidity data : <span id ="mytext22"></span></h5><hr>
+    <h5> DeviceId : <span id ="mytext25"></span></h5><hr>
+   
+</div> 
+
+  <script>
+    async function getdata2(){
+
+        var x = document.getElementById("submit1");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } 
+        else {
+            x.style.display = "none";
+            }
+        var y = document.getElementById("form1");
+        if (y.style.display === "none") {
+            y.style.display = "block";
+        } 
+        else {
+            y.style.display = "none";
+            }
+        var humt = document.getElementById("humt1").value;
+        var tempt = document.getElementById("tmpt1").value;
+        var devid = document.getElementById("dev1").value;
+        const data2 ={tempt,humt,devid,count};
+        const options = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+        },
+            body: JSON.stringify(data2)
+        };
+        fetch('/api2',options);
+        }
+
+    </script>
+  
+</div>
+
+<div id="Contact" class="tabcontent">
+  <h3>Sensor3 Data</h3>
+  <p>Get in touch, or swing by for a cup of coffee.</p>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>Sensor 4 data</h3>
+  <p>Who we are and what we do.</p>
+</div> 
+<script>
+    function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  console.log(t);
+  if(count==1){
+      t++;
+      if(t===2){
+          t =t-1;
+      }
+  }
+  else if (count===2){
+      t++;
+      if(t===3){
+          t=t-2;
+      }
+  }
+  else if (count===3){
+      t++;
+      if(t===4){
+          t=t-3;
+      }
+  }
+  else {
+      t++;
+      if(t===5){
+          t=t-4;
+      }
+  }
+
+ 
+  
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+
+// Get the element with id="defaultOpen" and click on it
+
+    var data3 = {t,count};
+    console.log(data3);
     const options = {
-        method: 'POST',
-        headers: {
+    method: 'POST',
+    headers: {
             'Content-Type': 'application/json'
     },
-        body: JSON.stringify(data1)
+        body: JSON.stringify(data3)
     };
-    fetch('/api1',options);
+    fetch('/api3',options);
     }
+    
 </script>
-
+<hr>
+<h4> Only 4 sensors can be simulated right now</h4>
 </body>
+
+
 </html>
